@@ -56,7 +56,7 @@ n
 i
 ​
  ≥Ai + 1
- 
+
 Input
 The first line of the input will contain N (0 < N < 100) size of the array
 
