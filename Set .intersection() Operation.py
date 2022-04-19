@@ -1,14 +1,14 @@
 '''
 Input Format
 
-The first line contains the number of students who have subscribed to the English newspaper.
-The second line contains the space separated list of student roll numbers who have subscribed to the English newspaper.
-The third line contains the number of students who have subscribed to the French newspaper.
-The fourth line contains the space separated list of student roll numbers who have subscribed to the French newspaper.
+The first line contains n, the number of students who have subscribed to the English newspaper.
+The second line contains n space separated roll numbers of those students.
+The third line contains b, the number of students who have subscribed to the French newspaper.
+The fourth line contains b space separated roll numbers of those students.
 
 Output Format
 
-Output the total number of students who are subscribed to the English newspaper only.
+Output the total number of students who have subscriptions to both English and French newspapers.
 
 Sample Input
 
@@ -18,12 +18,12 @@ Sample Input
 10 1 2 3 11 21 55 6 8
 Sample Output
 
-4
+5
 Explanation
 
-The roll numbers of students who only have English newspaper subscriptions are:
-4,5,7 and 9.
-Hence, the total is 4 students.
+The roll numbers of students who have both subscriptions:
+1,2,3,6 and 8.
+Hence, the total is 5 students.
 '''
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
